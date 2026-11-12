@@ -1,4 +1,4 @@
-# hyperaware-live
+# Hyperaware
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hyperaware-live is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hyperaware.live/
+Hyperaware provides a public board aggregating trending content across dozens of sources such as Google News, YouTube, Reddit, TikTok, and more. It offers a free tier with top‑10 items per feed, delayed about 24 hours, and a Pro tier delivering live full rankings, history, and API access for developers. The service includes an MCP endpoint and aims to surface real‑time cultural signals for integration into tools and workflows.
+
+**Areas:** Company · Trending · Aggregator · API · Data
+
+## Hyperaware on APIs.io
+
+Everything profiled for Hyperaware is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hyperaware-live/](https://apis.io/providers/hyperaware-live/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Hyperaware Trends API](https://apis.io/apis/hyperaware-live/hyperaware-live-trends-api/) — Trend data operations
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Hyperaware Agentic Access](https://apis.io/agentic-access/hyperaware-live/hyperaware-live-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [Envelope](https://apis.io/schemas/hyperaware-live/hyperaware-live-envelope/)
+- [GetContextRequest](https://apis.io/schemas/hyperaware-live/hyperaware-live-get-context-request/)
+- [GetGrowthRequest](https://apis.io/schemas/hyperaware-live/hyperaware-live-get-growth-request/)
+- [GetTimeSeriesRequest](https://apis.io/schemas/hyperaware-live/hyperaware-live-get-time-series-request/)
+- [GetTopTrendsRequest](https://apis.io/schemas/hyperaware-live/hyperaware-live-get-top-trends-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hyperaware Live Context](https://apis.io/jsonld/hyperaware-live/hyperaware-live-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hyperaware API Rules](https://apis.io/rules/hyperaware-live/hyperaware-live-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hyperaware Authentication](https://apis.io/security/hyperaware-live/hyperaware-live-authentication/)
+- [Hyperaware Domain Security](https://apis.io/security/hyperaware-live/hyperaware-live-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hyperaware Plans Pricing](https://apis.io/plans/hyperaware-live/hyperaware-live-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hyperaware.live/)
+- [Documentation](https://hyperaware.live/docs)
+- [Getting started](https://hyperaware.live/docs/mcp)
+- [API reference](https://hyperaware.live/openapi.json)
+- [Pricing](https://hyperaware.live/pricing)
+
+## API Evangelist rating
+
+**Kin Score 49.0** — developing · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 66.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 38.9 |
+
+**Agent readiness 54.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hyperaware-live/](https://apis.io/providers/hyperaware-live/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hyperaware: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hyperaware-live/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
